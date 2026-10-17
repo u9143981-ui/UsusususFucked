@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["...", "gcc", "gnumake", "cmake", "pkg-config", "openssl", "ffmpeg"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
